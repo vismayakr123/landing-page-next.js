@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Laptop Shape -->
+  <g transform="translate(150, 80)">
+    <!-- Screen -->
+    <rect x="0" y="0" width="300" height="200" fill="#ffffff" rx="10"/>
+    
+    <!-- Screen Content -->
+    <rect x="10" y="10" width="280" height="30" fill="#E5E7EB" rx="5"/>
+    <rect x="10" y="50" width="280" height="10" fill="#E5E7EB"/>
+    <rect x="10" y="70" width="280" height="10" fill="#E5E7EB"/>
+    <rect x="10" y="90" width="200" height="10" fill="#E5E7EB"/>
+    <rect x="10" y="130" width="80" height="40" fill="#3B82F6" rx="5"/>
+    <text x="50" y="160" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Design</text>
+    
+    <!-- Keyboard/Base -->
+    <path d="M 40 200 L 50 240 Q 150 250 260 240 L 260 200 Z" fill="#2D3748" stroke="#1A202C" stroke-width="2"/>
+    
+    <!-- Keyboard Keys -->
+    <rect x="60" y="210" width="20" height="15" fill="#4A5568" rx="2"/>
+    <rect x="90" y="210" width="20" height="15" fill="#4A5568" rx="2"/>
+    <rect x="120" y="210" width="20" height="15" fill="#4A5568" rx="2"/>
+    <rect x="150" y="210" width="20" height="15" fill="#4A5568" rx="2"/>
+    <rect x="180" y="210" width="20" height="15" fill="#4A5568" rx="2"/>
+    <rect x="210" y="210" width="20" height="15" fill="#4A5568" rx="2"/>
+  </g>
+  
+  <!-- Person sitting -->
+  <g transform="translate(420, 150)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="20" fill="#F4A460"/>
+    
+    <!-- Body -->
+    <ellipse cx="0" cy="50" rx="25" ry="40" fill="#3B82F6"/>
+    
+    <!-- Arms -->
+    <line x1="-25" y1="40" x2="-50" y2="60" stroke="#F4A460" stroke-width="8" stroke-linecap="round"/>
+    <line x1="25" y1="40" x2="50" y2="60" stroke="#F4A460" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Legs -->
+    <line x1="-15" y1="90" x2="-15" y2="130" stroke="#2D3748" stroke-width="10" stroke-linecap="round"/>
+    <line x1="15" y1="90" x2="15" y2="130" stroke="#2D3748" stroke-width="10" stroke-linecap="round"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-15" cy="135" rx="12" ry="8" fill="#1A202C"/>
+    <ellipse cx="15" cy="135" rx="12" ry="8" fill="#1A202C"/>
+  </g>
+  
+  <!-- Floating Elements -->
+  <circle cx="80" cy="60" r="15" fill="#ffffff" opacity="0.2"/>
+  <circle cx="500" cy="100" r="20" fill="#ffffff" opacity="0.15"/>
+  <circle cx="120" cy="350" r="18" fill="#ffffff" opacity="0.1"/>
+  
+  <!-- Text Overlay -->
+  <text x="300" y="380" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.8">Modern Design & Development</text>
+</svg>
